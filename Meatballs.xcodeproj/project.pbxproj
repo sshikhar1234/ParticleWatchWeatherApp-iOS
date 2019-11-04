@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BC98B4A42DA02E10975D1CF /* Pods_Meatballs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0832469E246C563C050CD691 /* Pods_Meatballs.framework */; };
+		676EC1D6D61914DE49ECE31C /* Pods_Meatballs_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C6FA022D1137A0350ED6C9 /* Pods_Meatballs_WatchKit_App.framework */; };
+		68A6FCC92370BD27009AFF5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A6FCC82370BD26009AFF5E /* Main.storyboard */; };
+		68A6FCCB2370BD5F009AFF5E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A6FCCA2370BD5F009AFF5E /* Interface.storyboard */; };
 		68FBAB7B236E09AE00805426 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FBAB7A236E09AE00805426 /* AppDelegate.swift */; };
 		68FBAB7D236E09AE00805426 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FBAB7C236E09AE00805426 /* ViewController.swift */; };
-		68FBAB80236E09AE00805426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FBAB7E236E09AE00805426 /* Main.storyboard */; };
 		68FBAB82236E09AF00805426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68FBAB81236E09AF00805426 /* Assets.xcassets */; };
 		68FBAB85236E09AF00805426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FBAB83236E09AF00805426 /* LaunchScreen.storyboard */; };
 		68FBAB8A236E09AF00805426 /* Meatballs WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 68FBAB89236E09AF00805426 /* Meatballs WatchKit App.app */; };
-		68FBAB90236E09AF00805426 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FBAB8E236E09AF00805426 /* Interface.storyboard */; };
 		68FBAB92236E09B000805426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68FBAB91236E09B000805426 /* Assets.xcassets */; };
 		68FBAB99236E09B000805426 /* Meatballs WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 68FBAB98236E09B000805426 /* Meatballs WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		68FBAB9E236E09B000805426 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FBAB9D236E09B000805426 /* InterfaceController.swift */; };
 		68FBABA0236E09B000805426 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FBAB9F236E09B000805426 /* ExtensionDelegate.swift */; };
 		68FBABA2236E09B000805426 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FBABA1236E09B000805426 /* NotificationController.swift */; };
 		68FBABA4236E09B100805426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68FBABA3236E09B100805426 /* Assets.xcassets */; };
+		83279B7B7EDA51C502864BBF /* Pods_Meatballs_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A2F2C4D9F4C045CB12F2BB /* Pods_Meatballs_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,15 +68,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		075952C58B1463F716265181 /* Pods-Meatballs WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meatballs WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-Meatballs WatchKit App/Pods-Meatballs WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		0832469E246C563C050CD691 /* Pods_Meatballs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meatballs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25AAAE53141C194693BBC47D /* Pods-Meatballs WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meatballs WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-Meatballs WatchKit Extension/Pods-Meatballs WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		34C6FA022D1137A0350ED6C9 /* Pods_Meatballs_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meatballs_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A2F2C4D9F4C045CB12F2BB /* Pods_Meatballs_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meatballs_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A6FCC82370BD26009AFF5E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		68A6FCCA2370BD5F009AFF5E /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		68FBAB77236E09AD00805426 /* Meatballs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meatballs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68FBAB7A236E09AE00805426 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68FBAB7C236E09AE00805426 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		68FBAB7F236E09AE00805426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68FBAB81236E09AF00805426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68FBAB84236E09AF00805426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68FBAB86236E09AF00805426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68FBAB89236E09AF00805426 /* Meatballs WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meatballs WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		68FBAB8F236E09AF00805426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		68FBAB91236E09B000805426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68FBAB93236E09B000805426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68FBAB98236E09B000805426 /* Meatballs WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Meatballs WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +91,10 @@
 		68FBABA3236E09B100805426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68FBABA5236E09B100805426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68FBABA6236E09B100805426 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7BB332D0E4E41CD1E9DBA84D /* Pods-Meatballs WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meatballs WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-Meatballs WatchKit App/Pods-Meatballs WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		7E9DA410591E630716AE983B /* Pods-Meatballs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meatballs.release.xcconfig"; path = "Target Support Files/Pods-Meatballs/Pods-Meatballs.release.xcconfig"; sourceTree = "<group>"; };
+		941E1506E4793EDF4F13BEE4 /* Pods-Meatballs WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meatballs WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-Meatballs WatchKit Extension/Pods-Meatballs WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		9E5E62E23FF06EE4E65E5823 /* Pods-Meatballs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meatballs.debug.xcconfig"; path = "Target Support Files/Pods-Meatballs/Pods-Meatballs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BC98B4A42DA02E10975D1CF /* Pods_Meatballs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +110,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83279B7B7EDA51C502864BBF /* Pods_Meatballs_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B2F17E79D8ED157285181F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676EC1D6D61914DE49ECE31C /* Pods_Meatballs_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +132,8 @@
 				68FBAB8D236E09AF00805426 /* Meatballs WatchKit App */,
 				68FBAB9C236E09B000805426 /* Meatballs WatchKit Extension */,
 				68FBAB78236E09AD00805426 /* Products */,
+				6EC12A11C908D8F982B996C2 /* Pods */,
+				CE1058EE84B58D8C8FCCC55C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,9 +150,9 @@
 		68FBAB79236E09AD00805426 /* Meatballs */ = {
 			isa = PBXGroup;
 			children = (
+				68A6FCC82370BD26009AFF5E /* Main.storyboard */,
 				68FBAB7A236E09AE00805426 /* AppDelegate.swift */,
 				68FBAB7C236E09AE00805426 /* ViewController.swift */,
-				68FBAB7E236E09AE00805426 /* Main.storyboard */,
 				68FBAB81236E09AF00805426 /* Assets.xcassets */,
 				68FBAB83236E09AF00805426 /* LaunchScreen.storyboard */,
 				68FBAB86236E09AF00805426 /* Info.plist */,
@@ -139,7 +163,7 @@
 		68FBAB8D236E09AF00805426 /* Meatballs WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				68FBAB8E236E09AF00805426 /* Interface.storyboard */,
+				68A6FCCA2370BD5F009AFF5E /* Interface.storyboard */,
 				68FBAB91236E09B000805426 /* Assets.xcassets */,
 				68FBAB93236E09B000805426 /* Info.plist */,
 			);
@@ -159,6 +183,30 @@
 			path = "Meatballs WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		6EC12A11C908D8F982B996C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E5E62E23FF06EE4E65E5823 /* Pods-Meatballs.debug.xcconfig */,
+				7E9DA410591E630716AE983B /* Pods-Meatballs.release.xcconfig */,
+				075952C58B1463F716265181 /* Pods-Meatballs WatchKit App.debug.xcconfig */,
+				7BB332D0E4E41CD1E9DBA84D /* Pods-Meatballs WatchKit App.release.xcconfig */,
+				25AAAE53141C194693BBC47D /* Pods-Meatballs WatchKit Extension.debug.xcconfig */,
+				941E1506E4793EDF4F13BEE4 /* Pods-Meatballs WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE1058EE84B58D8C8FCCC55C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0832469E246C563C050CD691 /* Pods_Meatballs.framework */,
+				34C6FA022D1137A0350ED6C9 /* Pods_Meatballs_WatchKit_App.framework */,
+				62A2F2C4D9F4C045CB12F2BB /* Pods_Meatballs_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,10 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68FBABB1236E09B100805426 /* Build configuration list for PBXNativeTarget "Meatballs" */;
 			buildPhases = (
+				A78CD965AB25C7CE6647864F /* [CP] Check Pods Manifest.lock */,
 				68FBAB73236E09AD00805426 /* Sources */,
 				68FBAB74236E09AD00805426 /* Frameworks */,
 				68FBAB75236E09AD00805426 /* Resources */,
 				68FBABB0236E09B100805426 /* Embed Watch Content */,
+				441E73CB42A42D02D27477F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,8 +235,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68FBABAD236E09B100805426 /* Build configuration list for PBXNativeTarget "Meatballs WatchKit App" */;
 			buildPhases = (
+				3C6BA77BE3D245E39F93E466 /* [CP] Check Pods Manifest.lock */,
 				68FBAB87236E09AF00805426 /* Resources */,
 				68FBABAC236E09B100805426 /* Embed App Extensions */,
+				D7B2F17E79D8ED157285181F /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68FBABA9236E09B100805426 /* Build configuration list for PBXNativeTarget "Meatballs WatchKit Extension" */;
 			buildPhases = (
+				19359A4BE766B73B2C9A1C42 /* [CP] Check Pods Manifest.lock */,
 				68FBAB94236E09B000805426 /* Sources */,
 				68FBAB95236E09B000805426 /* Frameworks */,
 				68FBAB96236E09B000805426 /* Resources */,
+				9BC0B06079221746446C1F0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,9 +315,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68A6FCC92370BD27009AFF5E /* Main.storyboard in Resources */,
 				68FBAB85236E09AF00805426 /* LaunchScreen.storyboard in Resources */,
 				68FBAB82236E09AF00805426 /* Assets.xcassets in Resources */,
-				68FBAB80236E09AE00805426 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +325,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68A6FCCB2370BD5F009AFF5E /* Interface.storyboard in Resources */,
 				68FBAB92236E09B000805426 /* Assets.xcassets in Resources */,
-				68FBAB90236E09AF00805426 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +339,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19359A4BE766B73B2C9A1C42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meatballs WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C6BA77BE3D245E39F93E466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meatballs WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		441E73CB42A42D02D27477F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meatballs/Pods-Meatballs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meatballs/Pods-Meatballs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meatballs/Pods-Meatballs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BC0B06079221746446C1F0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meatballs WatchKit Extension/Pods-Meatballs WatchKit Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meatballs WatchKit Extension/Pods-Meatballs WatchKit Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meatballs WatchKit Extension/Pods-Meatballs WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A78CD965AB25C7CE6647864F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meatballs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		68FBAB73236E09AD00805426 /* Sources */ = {
@@ -322,28 +479,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		68FBAB7E236E09AE00805426 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68FBAB7F236E09AE00805426 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		68FBAB83236E09AF00805426 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				68FBAB84236E09AF00805426 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		68FBAB8E236E09AF00805426 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68FBAB8F236E09AF00805426 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -467,6 +608,7 @@
 		};
 		68FBABAA236E09B100805426 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AAAE53141C194693BBC47D /* Pods-Meatballs WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +630,7 @@
 		};
 		68FBABAB236E09B100805426 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941E1506E4793EDF4F13BEE4 /* Pods-Meatballs WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +652,7 @@
 		};
 		68FBABAE236E09B100805426 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075952C58B1463F716265181 /* Pods-Meatballs WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -527,6 +671,7 @@
 		};
 		68FBABAF236E09B100805426 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB332D0E4E41CD1E9DBA84D /* Pods-Meatballs WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -545,6 +690,7 @@
 		};
 		68FBABB2236E09B100805426 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5E62E23FF06EE4E65E5823 /* Pods-Meatballs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +708,7 @@
 		};
 		68FBABB3236E09B100805426 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9DA410591E630716AE983B /* Pods-Meatballs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
